@@ -3,8 +3,7 @@
 This repository serves as a template for creating a Chrome extension with TypeScript, Webpack, and modular folder structure. It includes all the essentials to get you started with developing, building, and deploying a Chrome extension.
 
 ## Folder Structure
-graphql
-Copiar código
+```
 ├── src
 │   ├── background
 │   │   └── background.ts         # Background script for persistent actions
@@ -25,6 +24,7 @@ Copiar código
 ├── webpack.common.js             # Webpack shared configuration
 ├── webpack.dev.js                # Webpack development configuration
 └── webpack.prod.js               # Webpack production configuration
+```
 
 ## Features
 - TypeScript Support: The codebase is written in TypeScript for type safety and better development experience.
